@@ -1,0 +1,76 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(0, 0, 0);
+    color: rgba(255, 255, 0, 0.835);
+    background-position: center;
+    background-size: auto;
+}
+
+img {
+    max-height: 300px;
+    max-width: fit-content;
+}
+
+header {
+    text-align: center;
+    padding: 10px;
+}
+
+.scorecard {
+    margin-top: 0;
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+    align-items: center;
+    /* padding: 25px; */
+}
+
+.cardRobo {
+    position: -webkit-sticky;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+button {
+    border-radius: 35px;
+    border: none;
+    padding: 45px;
+}
+
+#Paper {
+    background-image: url(/images/paper_sheet.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#Rock {
+    background-image: url(/images/rock.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#Scissors {
+    background-image: url(/images/black_scissors.jpg);
+    background-position: center;
+    background-size: cover;
+ 
+}
+
+
+.board {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid black;
+    padding: 50px;
+    text-align: center;
+}
+
+footer {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
